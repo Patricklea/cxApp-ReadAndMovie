@@ -1,0 +1,9 @@
+<view class='container'>
+    <image class='user-avator' src="/images/touxiang.jpg"></image>
+    <text class='user-name'>hello，Patrick</text>
+    <view class='moto-container' bindtap='onTap'>
+        <text class='moto'>开启小程序之旅</text>
+        <!--<navigator class='moto' url="../posts/posts" open-type="redirect">开启小程序之旅</navigator>-->
+    </view>
+</view>
+
