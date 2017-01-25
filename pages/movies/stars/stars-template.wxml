@@ -1,0 +1,12 @@
+<template name='starsTemplate'>
+    <view class='stars-container'>
+        <view class='stars'>
+        <block wx:for='{{stars}}' wx:for-item='i'>
+            <!--因为数组是是0、1组成，i的取值也只有0、1，那么i=1为真，执行if；i=0为假，执行else-->
+            <image wx:if='{{i}}' src="/images/icon/star.png"></image>
+            <image wx:else src="/images/icon/none-star.png"></image>
+        </block>
+        </view>
+        <text class='star-score'> {{score}} </text>
+    </view>
+</template>
