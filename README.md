@@ -2,7 +2,7 @@
 
 ###
 
-![Markdown](http://p1.bpimg.com/583407/45413ebdb4a70476t.jpg)
+![Markdown](http://p1.bpimg.com/583407/45413ebdb4a70476.gif)
 
 
 ### 初始化界面：
